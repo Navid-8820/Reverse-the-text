@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Vazirmatn/Vazirmatn-Regular.woff2') format('woff2');
+  }
+  
+  body {
+    font-family: 'Vazirmatn', sans-serif;
+    
+  }
+  
+  #copyMessage {
+    transition: opacity 0.5s ease;
+  }
+  
+  @media (max-width: 640px) {
+    .container {
+      padding: 1rem;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    textarea {
+      font-size: 0.9rem;
+    }
+    
+    button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
